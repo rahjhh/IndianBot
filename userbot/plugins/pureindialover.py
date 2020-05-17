@@ -22,8 +22,8 @@ async def _(event):
     await event.edit("@rahul_immortal")
     animation_chars = [
             "@rahul_immortal tera baaap" ,
-            "Isme koi shak nhi 😎😎😎😎" .
-            "apun hai is bot ka creator" ,
+            "Isme koi shak nhi 😎😎😎hk" .
+            "apun hai is bot ka creator " ,
             "main tere sath hu aur kya " ,
     
            
