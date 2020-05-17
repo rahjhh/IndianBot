@@ -1,7 +1,7 @@
 """Emoji
 Available Commands:
-.pureindialover
-Credits to @pureindialover
+.rahul_immortal
+Credits to @rahul_immortal
 """
 
 from telethon import events
@@ -11,24 +11,28 @@ import asyncio
 from userbot.utils import admin_cmd
 
 
-@borg.on(admin_cmd("pureindialover"))
+@borg.on(admin_cmd("rahul_immortal"))
 async def _(event):
     if event.fwd_from:
         return
     animation_interval = 1.5
     animation_ttl = range(0,36)
     #input_str = event.pattern_match.group(1)
-   # if input_str == "pureindialover":
+   # if input_str == "rahul_immortal":
     await event.edit("@pureindialover")
     animation_chars = [
-            "@pureindialover tera baap",
-            "@pureindialover is bot ka creator",
-            "@pureindialover bot ko jaan dene wala",
-            "@pureindialover owner of @IndianArMyGiveaway ",
-            "tujhe aur kya chaiye vo hai mere sath",
-            "tera baap",
-            "@pureindialover"
-         ]
+            "@rahul_immortal tera baap hu" ,
+            "Isme koi shak nhi 😎" ,
+            "apun hai is bot ka creator😎",
+            "main tere sath hu aur kya chahyiye tujhe😎" ,
+    
+           
+           
+          
+           
+            
+
+
             
 
     for i in animation_ttl:
