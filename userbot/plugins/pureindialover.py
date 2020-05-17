@@ -19,7 +19,7 @@ async def _(event):
     animation_ttl = range(0,36)
     #input_str = event.pattern_match.group(1)
    # if input_str == "rahul_immortal":
-    await event.edit("@pureindialover")
+    await event.edit("@rahul_immortal")
     animation_chars = [
             "@rahul_immortal tera baap hu" ,
             "Isme koi shak nhi 😎" ,
